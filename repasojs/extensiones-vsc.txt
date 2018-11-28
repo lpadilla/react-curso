@@ -1,0 +1,14 @@
+extensiones.txt 
+
+1. Beautify de HookyQR
+2- Bootstrap4 de Ashok Koyi
+3- Bracket Pair Colorizer de CoenraadS
+4- Eslint de Dirk Baeumer
+5- generate-react-component de joshjg
+6- HTML snippets de Mohamed Abusaid
+7- JavaScript (ES6) code snippets de charalampos karypidis
+8- Live Server de Ritwick Dey
+9- Prettier - Code formatter de Esben Petersen
+10- React Component de Jeremy Rajan
+11- React Redux Snippets de Daniel Beff
+12- Reactjs code snippets de charalampos karypidis
