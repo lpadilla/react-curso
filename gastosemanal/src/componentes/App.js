@@ -40,6 +40,7 @@ class App extends Component {
 
     restante = restante - restar;
  
+    restante = String(restante);
     this.setState({
       restante
     });

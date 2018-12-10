@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
+import PropTypes from 'prop-types';
 import Gasto from './Gasto';
 
-export default class Listado extends Component {
-
+class Listado extends Component {
     render() {
         return (
             <div className="gastos-realizados">
@@ -17,3 +17,9 @@ export default class Listado extends Component {
         );
     }
 }
+
+Listado.propTypes = {
+    gastos: PropTypes.object.isRequired
+}
+
+export default Listado;

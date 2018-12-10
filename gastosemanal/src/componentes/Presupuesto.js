@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
+import PropTypes from 'prop-types';
 
-export default class Presupuesto extends Component {
-
+class Presupuesto extends Component {
     render() {
         return (
             <div className="alert alert-primary">
@@ -10,3 +10,9 @@ export default class Presupuesto extends Component {
         );
     }
 }
+
+Presupuesto.propTypes = {
+    presupuesto: PropTypes.string.isRequired
+}
+
+export default Presupuesto;
