@@ -1,27 +1,11 @@
-//importar variables
-import {name} from './allExport.js';
-console.log(name);
 
-//importar variable por default
-import varDefault from './allExport.js';
-console.log(varDefault);
+//Object Keys
+//para traer las keys de un object
 
-//importar objeto
-import {obj_value} from './allExport.js';
-console.log(obj_value);
+const person = {
+    name: "Lyz",
+    profession: "Ing. de Sistemas",
+    age: 28
+}
 
-//importar mas de un valor al mismo tiempo
-import {name1, other} from './allExport.js';
-console.log(name1);
-console.log(other);
-
-//import funcion
-import{fun_export} from './allExport.js';
-let imp_var = fun_export("sabina", "padilla");
-console.log(imp_var);
-
-//import class
-import {Task} from './allExport.js';
-const task1= new Task("Aprender Js", "Urgente");
-console.log(task1);
-task1.show();
+console.log(Object.keys(person));
